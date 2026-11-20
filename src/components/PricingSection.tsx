@@ -126,7 +126,7 @@ const PricingSection = () => {
               className="text-center text-[20px] md:text-[24px] mb-[2px] line-through"
               style={{ fontFamily: FONT, fontWeight: 700, color: "hsl(var(--lp-danger))" }}
             >
-              R$[PREÇO DE]
+              R$39,90
             </p>
 
             <div className="text-center mb-[4px]">
@@ -134,7 +134,7 @@ const PricingSection = () => {
                 className="text-[42px] md:text-[52px]"
                 style={{ fontFamily: FONT, fontWeight: 800, color: "hsl(var(--lp-check))" }}
               >
-                R$[PREÇO PROMOCIONAL]
+                R$17,90
               </span>
             </div>
 
@@ -142,7 +142,7 @@ const PricingSection = () => {
               className="text-center text-[15px] md:text-[19px] mb-[12px]"
               style={{ fontFamily: FONT, fontWeight: 600, color: "hsl(var(--lp-black) / 0.7)" }}
             >
-              ou [NÚMERO]x de R$[VALOR] no cartão
+              ou 2x de R$9,42 no cartão
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 mb-[14px] text-center">
@@ -282,7 +282,7 @@ const PricingSection = () => {
                   className="text-center text-[20px] md:text-[24px] mb-[2px] line-through"
                   style={{ fontFamily: FONT, fontWeight: 700, color: "hsl(var(--lp-danger))" }}
                 >
-                  R$[PREÇO DE]
+                  R$59,90
                 </p>
 
                 <div className="text-center mb-[4px]">
@@ -290,7 +290,7 @@ const PricingSection = () => {
                     className="text-[48px] md:text-[58px]"
                     style={{ fontFamily: FONT, fontWeight: 800, color: "hsl(var(--lp-lime))" }}
                   >
-                    R$[PREÇO PROMOCIONAL]
+                    R$27,90
                   </span>
                 </div>
 
@@ -298,7 +298,7 @@ const PricingSection = () => {
                   className="text-center text-[15px] md:text-[19px] mb-[14px]"
                   style={{ fontFamily: FONT, fontWeight: 600, color: "hsl(var(--lp-white) / 0.75)" }}
                 >
-                  ou [NÚMERO]x de R$[VALOR] no cartão
+                  ou 3x de R$9,96 no cartão
                 </p>
 
                 <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 mb-[16px] text-center">

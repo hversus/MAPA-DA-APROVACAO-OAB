@@ -9,28 +9,28 @@ const bonuses = [
     title: "Guia de Artigos, Súmulas e Prazos OAB",
     description:
       "Referências importantes reunidas por assunto para consultar durante a revisão. Localize o artigo, a súmula ou o prazo relacionado ao tema estudado e confira os principais pontos de atenção.",
-    value: "R$[VALOR]",
+    value: "R$17,90",
   },
   {
     number: 2,
     title: "Treino de Questões Comentadas",
     description:
       "Questões para colocar os conceitos em prática e conferir o raciocínio. Resolva antes de olhar a resposta, acompanhe a explicação e identifique se sua dificuldade está na interpretação, no conceito ou na aplicação da norma.",
-    value: "R$[VALOR]",
+    value: "R$19,90",
   },
   {
     number: 3,
     title: "Plano de Estudo de 25 Dias",
     description:
       "Uma sequência de estudo para distribuir os assuntos na reta final, alternando leitura, resolução de questões e retomada dos erros. Adapte as sessões à sua rotina e acompanhe as tarefas concluídas até o dia da prova.",
-    value: "R$[VALOR]",
+    value: "R$17,90",
   },
   {
     number: 4,
     title: "Registro de Erros e Revisões",
     description:
       "Fichas para anotar a questão, o assunto, o motivo do erro e o raciocínio correto. Organize as próximas revisões e acompanhe se conseguiu resolver novamente sem consultar a resposta.",
-    value: "R$[VALOR]",
+    value: "R$14,90",
   },
 ];
 
