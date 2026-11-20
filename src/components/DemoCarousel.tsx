@@ -94,6 +94,7 @@ const DemoCarousel = () => {
           min-width: 0;
           padding: 0 8px;
           box-sizing: border-box;
+          scroll-snap-align: center;
         }
 
         .oab-carousel-card img {
@@ -115,6 +116,32 @@ const DemoCarousel = () => {
 
         @media (min-width: 1024px) {
           .oab-carousel-section { --oab-carousel-card-width: 40vw; }
+        }
+
+        @media (max-width: 639px) {
+          .oab-carousel-viewport {
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory;
+          }
+
+          .oab-carousel-track {
+            width: max-content;
+            animation: none;
+          }
+
+          .oab-carousel-group {
+            flex: 0 0 auto;
+          }
+
+          .oab-carousel-group[aria-hidden="true"] {
+            display: none;
+          }
+
+          .oab-carousel-card {
+            flex: 0 0 92vw;
+          }
         }
 
         @media (prefers-reduced-motion: reduce) {
