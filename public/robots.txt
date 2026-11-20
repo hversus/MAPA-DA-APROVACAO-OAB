@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://mapadaaprovacaooab48.vercel.app/sitemap.xml
+Sitemap: https://oabprovamapa.vercel.app/sitemap.xml
