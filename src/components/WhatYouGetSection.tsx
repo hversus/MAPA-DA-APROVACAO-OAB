@@ -78,7 +78,7 @@ const WhatYouGetSection = () => {
 
           <div className="mb-6 md:mb-7 flex items-center justify-center rounded-[18px] overflow-hidden">
             <img
-              src="/produto-oab/mockup-principal-oab-2027-1-v5-transparent.webp"
+              src="/produto-oab/mockup-principal-oab-2027-1-v5-transparent-300kb.webp"
               alt="Mapa da Aprovação OAB — material completo"
               className="w-full max-w-[520px] h-auto object-contain"
               loading="lazy"
