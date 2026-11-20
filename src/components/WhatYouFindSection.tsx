@@ -49,8 +49,8 @@ const WhatYouFindSection = () => {
             style={{ backgroundColor: "hsl(var(--lp-white))" }}
           >
             <img
-              src="/produto-oab/mockup-principal-oab-2027-1-v5-transparent-300kb.webp"
-              alt="Mapa da Aprovação OAB — material completo"
+              src="/produto-oab/Gemini_Generated_Image_daoac3daoac3daoa.webp"
+              alt="Pessoa apresentando o Mapa da Aprovação OAB"
               className="w-full h-auto object-contain"
               loading="lazy"
               decoding="async"
