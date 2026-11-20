@@ -1,5 +1,4 @@
 import { Check, Zap } from "lucide-react";
-import ImagePlaceholder from "./ImagePlaceholder";
 
 const items = [
   "Mapa da Aprovação OAB • edição 48",
@@ -77,8 +76,14 @@ const WhatYouGetSection = () => {
             Acesso imediato ao material completo
           </h3>
 
-          <div className="mb-6 md:mb-7 flex items-center justify-center">
-            <ImagePlaceholder label="Mockup ilustrativo do produto digital" dark className="w-full max-w-[420px] aspect-square" />
+          <div className="mb-6 md:mb-7 flex items-center justify-center rounded-[18px] overflow-hidden">
+            <img
+              src="/produto-oab/mapa-aprovacao-oab-completo.png"
+              alt="Mapa da Aprovação OAB — material completo"
+              className="w-full max-w-[520px] h-auto object-contain"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
 
           <div className="text-left space-y-3 md:space-y-4">
@@ -151,3 +156,4 @@ const WhatYouGetSection = () => {
 };
 
 export default WhatYouGetSection;
+

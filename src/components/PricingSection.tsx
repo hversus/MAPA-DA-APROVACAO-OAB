@@ -1,7 +1,6 @@
 import { Check, ArrowRight, Shield } from "lucide-react";
 import paymentIcons from "@/assets/payment-icons.webp";
 import clockIcon from "@/assets/clock-alarm.svg";
-import ImagePlaceholder from "./ImagePlaceholder";
 import iconWhatsapp from "@/assets/icon-whatsapp.png.asset.json";
 import iconGmail from "@/assets/icon-gmail.png.asset.json";
 
@@ -98,8 +97,14 @@ const PricingSection = () => {
               Plano Básico
             </h3>
 
-            <div className="mb-[16px] flex items-center justify-center">
-              <ImagePlaceholder label="Mockup Plano Básico · Mapa da Aprovação OAB" className="w-full max-w-[300px] aspect-square" />
+            <div className="mb-[16px] flex items-center justify-center rounded-[14px] overflow-hidden">
+              <img
+                src="/produto-oab/mapa-aprovacao-oab-completo.png"
+                alt="Mapa da Aprovação OAB — Plano Básico"
+                className="w-full max-w-[340px] h-auto object-contain"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
 
 
@@ -368,3 +373,4 @@ const PricingSection = () => {
 };
 
 export default PricingSection;
+
