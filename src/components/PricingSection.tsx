@@ -1,6 +1,7 @@
 import { Check, ArrowRight, Shield } from "lucide-react";
 import paymentIcons from "@/assets/payment-icons.webp";
 import clockIcon from "@/assets/clock-alarm.svg";
+import ImagePlaceholder from "./ImagePlaceholder";
 import iconWhatsapp from "@/assets/icon-whatsapp.png.asset.json";
 import iconGmail from "@/assets/icon-gmail.png.asset.json";
 
