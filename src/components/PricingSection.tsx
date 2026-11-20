@@ -1,7 +1,6 @@
 import { Check, ArrowRight, Shield } from "lucide-react";
 import paymentIcons from "@/assets/payment-icons.webp";
 import clockIcon from "@/assets/clock-alarm.svg";
-import ImagePlaceholder from "./ImagePlaceholder";
 import iconWhatsapp from "@/assets/icon-whatsapp.png.asset.json";
 import iconGmail from "@/assets/icon-gmail.png.asset.json";
 
@@ -171,7 +170,7 @@ const PricingSection = () => {
 
 
             <a
-              href="https://pay.hotmart.com/I107735079K?checkoutMode=10"
+              href="https://pay.cakto.com.br/esj3axd_1348752"
               target="_blank"
               rel="noopener noreferrer"
               className="mx-auto w-full h-[54px] md:h-[58px] rounded-md flex items-center justify-center gap-2 transition-all duration-200 hover:scale-[1.02] px-4 text-center"
@@ -260,8 +259,14 @@ const PricingSection = () => {
                   Mapa da Aprovação OAB
                 </h4>
 
-                <div className="flex justify-center mb-[18px]">
-                  <ImagePlaceholder label="Mockup ilustrativo do plano completo" dark className="w-full max-w-[340px] aspect-square" />
+                <div className="flex justify-center mb-[18px] rounded-[14px] overflow-hidden">
+                  <img
+                    src="/produto-oab/mockup-plano-completo-oab-2027-1-v2.webp"
+                    alt="Mapa da Aprovação OAB — Plano Completo com bônus"
+                    className="w-full max-w-[340px] h-auto object-contain"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
 
 
@@ -327,7 +332,7 @@ const PricingSection = () => {
 
 
                 <a
-                  href="https://pay.hotmart.com/I107735079K?off=5fkxtl9z&checkoutMode=10"
+                  href="https://pay.cakto.com.br/hx9uwsb"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full h-[58px] md:h-[64px] rounded-md flex items-center justify-center gap-2 transition-all duration-200 hover:scale-[1.02] px-4 text-center"
