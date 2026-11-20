@@ -123,7 +123,7 @@ const WhatYouGetSection = () => {
           </p>
 
           <button
-            className="group w-full mt-6 md:mt-7 inline-flex items-center justify-center gap-3 transition-all duration-300 hover:scale-105 px-8 h-[55px] md:h-[62px]"
+            className="group w-full mt-6 md:mt-7 inline-flex min-h-[64px] items-center justify-center gap-2 px-4 py-4 text-center leading-snug transition-transform duration-300 hover:scale-[1.02] sm:px-8 md:min-h-[62px] md:gap-3 md:py-3"
             style={{
               backgroundColor: "hsl(var(--lp-lime))",
               borderRadius: "50px",
@@ -137,10 +137,10 @@ const WhatYouGetSection = () => {
               document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })
             }
           >
-            <span className="text-[16px] md:text-[21px]">
+            <span className="min-w-0 flex-1 text-[15px] sm:text-[16px] md:text-[21px]">
               QUERO RECEBER MEU MAPA DA APROVAÇÃO
             </span>
-            <span className="text-[18px] md:text-[24px]">→</span>
+            <span aria-hidden="true" className="shrink-0 text-[18px] md:text-[24px]">→</span>
           </button>
 
           <p
