@@ -99,7 +99,7 @@ const PricingSection = () => {
 
             <div className="mb-[16px] flex items-center justify-center rounded-[14px] overflow-hidden">
               <img
-                src="/produto-oab/mapa-aprovacao-oab-completo.png"
+                src="/produto-oab/mockup-principal-oab-2027-1-v5-transparent.webp"
                 alt="Mapa da Aprovação OAB — Plano Básico"
                 className="w-full max-w-[340px] h-auto object-contain"
                 loading="lazy"
