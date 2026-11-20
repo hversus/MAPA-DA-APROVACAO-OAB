@@ -1,5 +1,4 @@
 import { Zap, Smartphone } from "lucide-react";
-import ImagePlaceholder from "./ImagePlaceholder";
 import iconWhatsapp from "@/assets/icon-whatsapp.png.asset.json";
 import iconGmail from "@/assets/icon-gmail.png.asset.json";
 import heroAvatars from "@/assets/hero-eletricistas-avatars.png.asset.json";
@@ -36,7 +35,13 @@ const HeroSection = () => {
         </p>
 
         <div className="w-full flex items-center justify-center mb-6">
-          <ImagePlaceholder label="Mockup ilustrativo do produto digital" dark className="w-full max-w-[600px] aspect-square" />
+          <img
+            src="/produto-oab/mockup-plano-completo-oab-2027-1-v2.webp"
+            alt="Mapa da Aprovação OAB — Plano Completo com bônus"
+            className="w-full max-w-[600px] h-auto object-contain"
+            fetchPriority="high"
+            decoding="async"
+          />
         </div>
 
         <p
@@ -149,3 +154,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

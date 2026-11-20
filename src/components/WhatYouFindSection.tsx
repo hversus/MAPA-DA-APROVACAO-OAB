@@ -1,5 +1,4 @@
 import checkMark from "@/assets/check-mark.svg";
-import ImagePlaceholder from "./ImagePlaceholder";
 
 const items = [
   {
@@ -49,7 +48,13 @@ const WhatYouFindSection = () => {
             className="w-full rounded-[16px] overflow-hidden"
             style={{ backgroundColor: "hsl(var(--lp-white))" }}
           >
-            <ImagePlaceholder label="Mockup ilustrativo do produto digital" className="w-full aspect-[3/4]" />
+            <img
+              src="/produto-oab/mockup-principal-oab-2027-1-v5-transparent-300kb.webp"
+              alt="Mapa da Aprovação OAB — material completo"
+              className="w-full h-auto object-contain"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
 
           <div className="flex flex-col gap-4 md:gap-5">
@@ -103,3 +108,4 @@ const WhatYouFindSection = () => {
 };
 
 export default WhatYouFindSection;
+
