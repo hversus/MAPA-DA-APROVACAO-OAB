@@ -23,7 +23,7 @@ const Footer = () => {
             color: 'hsl(var(--lp-muted) / 0.7)'
           }}
         >
-          Este é um material técnico independente e não possui vínculo, autorização, parceria ou endosso de fabricantes de inversores de frequência, motores elétricos ou equipamentos industriais.
+          Este é um material educacional independente e não possui vínculo, autorização, parceria ou endosso da Ordem dos Advogados do Brasil, da Fundação Getulio Vargas ou de qualquer outra instituição mencionada.
         </p>
 
         <p 
@@ -33,7 +33,7 @@ const Footer = () => {
             color: 'hsl(var(--lp-muted) / 0.7)'
           }}
         >
-          Este material possui finalidade técnica e de apoio à consulta. As ligações, configurações e testes apresentados devem ser conferidos e aplicados de acordo com as características do equipamento instalado, a tensão de alimentação, os dados do motor, os componentes utilizados e as condições reais da instalação.
+          A apostila apresenta fundamentos e exemplos selecionados de 7 disciplinas do exame. Não esgota o edital nem garante aprovação. A preparação deve considerar o edital, as normas e os comunicados oficiais da prova.
         </p>
 
         <p 
@@ -43,7 +43,7 @@ const Footer = () => {
             color: 'hsl(var(--lp-muted) / 0.7)'
           }}
         >
-          A instalação, a parametrização, os testes e qualquer intervenção em circuitos elétricos devem ser realizados por profissional capacitado, com o sistema desenergizado sempre que aplicável e respeitando as normas de segurança e os procedimentos técnicos correspondentes.
+          Conteúdo elaborado com apoio de inteligência artificial, sem revisão técnica independente. As imagens de pessoas e os mockups são ilustrativos; o produto entregue é digital em PDF.
         </p>
 
         <p 

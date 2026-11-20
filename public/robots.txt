@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://inversoresangulonovo.lovable.app/sitemap.xml
+Sitemap: https://mapadaaprovacaooab48.vercel.app/sitemap.xml

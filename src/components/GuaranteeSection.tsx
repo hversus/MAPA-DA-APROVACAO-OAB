@@ -47,7 +47,7 @@ const GuaranteeSection = () => {
                 color: 'hsl(var(--lp-white) / 0.92)',
               }}
             >
-              Você terá <strong>15 dias para acessar e avaliar o material</strong>. Caso os mapas práticos não ajudem você a localizar as aplicações, visualizar as ligações, identificar os bornes, conferir as configurações necessárias e executar os testes apresentados, basta solicitar o reembolso dentro do prazo da garantia e devolveremos o valor pago. <strong>Sem complicação e sem burocracia.</strong>
+              Você terá <strong>15 dias para acessar e avaliar o material</strong>. Caso a apostila não ajude você a localizar os assuntos, compreender as explicações e revisar os conteúdos apresentados, basta solicitar o reembolso dentro do prazo da garantia e devolveremos o valor pago. Sem complicação e sem burocracia.
             </p>
           </div>
         </div>

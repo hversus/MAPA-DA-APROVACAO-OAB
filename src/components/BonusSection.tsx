@@ -6,31 +6,31 @@ import ImagePlaceholder from "./ImagePlaceholder";
 const bonuses = [
   {
     number: 1,
-    title: "+30 Rotas Visuais de Falhas e Alarmes em Inversores de Frequência",
+    title: "Guia de Artigos, Súmulas e Prazos OAB",
     description:
-      "Rotas de verificação organizadas por falha, alarme ou comportamento apresentado pelo conjunto. Consulte as causas compatíveis e siga uma sequência prática para verificar alimentação, comando, referência, motor, carga, proteção, entradas e condições da instalação.",
-    value: "R$17,90",
+      "Referências importantes reunidas por assunto para consultar durante a revisão. Localize o artigo, a súmula ou o prazo relacionado ao tema estudado e confira os principais pontos de atenção.",
+    value: "R$[VALOR]",
   },
   {
     number: 2,
-    title: "Tabela Rápida de Parâmetros Essenciais por Função",
+    title: "Treino de Questões Comentadas",
     description:
-      "Funções essenciais organizadas por objetivo de configuração para consultar durante a parametrização. Localize rapidamente os ajustes relacionados aos dados do motor, fonte de comando, referência de velocidade, entradas digitais, entradas analógicas, rampas, frequências fixas, saídas e proteções.",
-    value: "R$19,90",
+      "Questões para colocar os conceitos em prática e conferir o raciocínio. Resolva antes de olhar a resposta, acompanhe a explicação e identifique se sua dificuldade está na interpretação, no conceito ou na aplicação da norma.",
+    value: "R$[VALOR]",
   },
   {
     number: 3,
-    title: "+25 Testes Elétricos com Multímetro e Alicate Amperímetro",
+    title: "Plano de Estudo de 25 Dias",
     description:
-      "Testes práticos para ajudar a conferir as condições elétricas antes e depois da montagem. Visualize onde medir tensão de entrada, alimentação do comando, sinais de referência, continuidade, aterramento e corrente do motor, além do resultado esperado em cada verificação.",
-    value: "R$17,90",
+      "Uma sequência de estudo para distribuir os assuntos na reta final, alternando leitura, resolução de questões e retomada dos erros. Adapte as sessões à sua rotina e acompanhe as tarefas concluídas até o dia da prova.",
+    value: "R$[VALOR]",
   },
   {
     number: 4,
-    title: "Kit de Comissionamento e Registro de Parametrização",
+    title: "Registro de Erros e Revisões",
     description:
-      "Fichas prontas para registrar os dados do equipamento, informações da placa do motor, componentes instalados, configurações realizadas, testes executados e condição final de funcionamento. Assim, você mantém um histórico organizado para futuras manutenções e atendimentos.",
-    value: "R$14,90",
+      "Fichas para anotar a questão, o assunto, o motivo do erro e o raciocínio correto. Organize as próximas revisões e acompanhe se conseguiu resolver novamente sem consultar a resposta.",
+    value: "R$[VALOR]",
   },
 ];
 
@@ -61,7 +61,7 @@ const BonusSection = () => {
               color: "hsl(var(--lp-danger))",
             }}
           >
-            Se comprar depois, não ganha
+            Inclusos na escolha do plano completo
           </p>
 
           <h2
@@ -94,7 +94,7 @@ const BonusSection = () => {
                 className="aspect-[4/3] relative flex items-center justify-center overflow-hidden"
                 style={{ backgroundColor: "hsl(var(--lp-accent-light))" }}
               >
-                <ImagePlaceholder label={`Imagem do bônus ${bonus.number}`} className="w-full h-full" />
+                <ImagePlaceholder label={`Mockup do Bônus #${bonus.number}`} className="w-full h-full" />
 
 
 

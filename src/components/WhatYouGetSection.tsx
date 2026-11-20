@@ -2,30 +2,21 @@ import { Check, Zap } from "lucide-react";
 import ImagePlaceholder from "./ImagePlaceholder";
 
 const items = [
-  "+60 Mapas Práticos de Inversores de Frequência",
-  "Material visual em PDF, organizado e fácil de consultar",
-  "64 mapas práticos de execução",
-  "Mapas organizados por ligação, comando, referência e aplicação",
-  "Índice visual para localizar rapidamente o serviço desejado",
-  "Uma prancha visual independente para cada montagem",
-  "Objetivo e funcionamento esperado da aplicação",
-  "Alimentação e proteção do circuito",
-  "Ligação de potência entre rede, inversor e motor",
-  "Circuito de comando completo",
-  "Identificação dos bornes utilizados",
-  "Caminho visual dos fios e conexões",
-  "Componentes necessários para cada montagem",
-  "Dados do motor que precisam ser configurados",
-  "Funções e parâmetros necessários para a aplicação",
-  "Sequência de configuração da montagem",
-  "Procedimento de teste funcional",
-  "Resposta esperada do inversor e do motor",
-  "Mapas de comando pela IHM e comando externo",
-  "Mapas de comando a dois e três fios",
-  "Mapas de avanço, retorno, parada e reset",
-  "Mapas com potenciômetro, sinal analógico e frequências fixas",
-  "Mapas para bombas, ventiladores, esteiras, exaustores e outras aplicações",
-  "Acesso vitalício para consultar antes e durante os serviços",
+  "Mapa da Aprovação OAB • edição [ANO/EXAME]",
+  "Apostila visual em PDF, organizada por disciplina e assunto",
+  "140 páginas para estudar, revisar e aplicar",
+  "Fundamentos de 7 disciplinas do exame",
+  "Índice para localizar rapidamente os temas",
+  "Unidades curtas com explicações e exemplos",
+  "Mapas mentais dos principais conteúdos jurídicos",
+  "Comparativos entre conceitos parecidos",
+  "Artigos de lei organizados por assunto",
+  "Súmulas e entendimentos importantes",
+  "Classificações, requisitos e elementos essenciais",
+  "Exceções e pontos de atenção",
+  "Fluxos e procedimentos apresentados em etapas",
+  "Exemplos jurídicos para facilitar a aplicação",
+  "Acesso vitalício para estudar no seu ritmo",
 ];
 
 const WhatYouGetSection = () => {
@@ -87,7 +78,7 @@ const WhatYouGetSection = () => {
           </h3>
 
           <div className="mb-6 md:mb-7 flex items-center justify-center">
-            <ImagePlaceholder label="Insira seu mockup aqui" dark className="w-full max-w-[420px] aspect-square" />
+            <ImagePlaceholder label="Mockup ilustrativo do produto digital" dark className="w-full max-w-[420px] aspect-square" />
           </div>
 
           <div className="text-left space-y-3 md:space-y-4">
@@ -119,7 +110,7 @@ const WhatYouGetSection = () => {
               color: "hsl(var(--lp-lime))",
             }}
           >
-            E MUITO MAIS…
+            ESTUDE, REVISE E CONFIRA
           </p>
 
           <button
@@ -138,7 +129,7 @@ const WhatYouGetSection = () => {
             }
           >
             <span className="text-[16px] md:text-[21px]">
-              QUERO RECEBER OS MAPAS PRÁTICOS
+              QUERO RECEBER MEU MAPA DA APROVAÇÃO
             </span>
             <span className="text-[18px] md:text-[24px]">→</span>
           </button>

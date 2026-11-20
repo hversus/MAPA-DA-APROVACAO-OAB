@@ -1,13 +1,12 @@
-import useEmblaCarousel from "embla-carousel-react";
-import AutoScroll from "embla-carousel-auto-scroll";
-import ImagePlaceholder from "./ImagePlaceholder";
-
-
 const DemoCarousel = () => {
-  const [emblaRef] = useEmblaCarousel(
-    { loop: true, align: "start", watchDrag: false, containScroll: false },
-    [AutoScroll({ speed: 2.5, startDelay: 0, stopOnInteraction: false, stopOnMouseEnter: false, stopOnFocusIn: false })]
-  );
+  const items = [
+    "Diferenças entre conceitos jurídicos parecidos",
+    "Classificações, requisitos e elementos essenciais",
+    "Artigos de lei organizados por assunto",
+    "Súmulas, exceções e pontos de atenção",
+    "Fluxos processuais apresentados em etapas",
+    "Exemplos jurídicos para aplicar o conteúdo",
+  ];
 
   return (
     <section
@@ -23,21 +22,19 @@ const DemoCarousel = () => {
             color: "hsl(var(--lp-black))",
           }}
         >
-          Esse mapa ajuda você a visualizar a montagem completa, configurar o necessário e executar o teste
+          Veja como estudar os assuntos da OAB com explicações visuais e exemplos jurídicos
         </h2>
       </div>
 
 
-      <div className="relative">
-        <div className="overflow-hidden" ref={emblaRef}>
-          <div className="flex items-center">
-            {Array.from({ length: 10 }, (_, index) => (
-              <div key={index} className="flex-[1_0_95%] sm:flex-[1_0_70%] md:flex-[1_0_55%] lg:flex-[1_0_40%] min-w-0 px-4">
-                <ImagePlaceholder label={`Imagem do carrossel ${index + 1}`} className="w-full aspect-[707/1000] rounded-[12px]" />
-              </div>
-            ))}
+      <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 px-5">
+        {items.map((item) => (
+          <div key={item} className="rounded-[16px] p-5 text-center" style={{ backgroundColor: "hsl(var(--lp-green-pale))" }}>
+            <p className="text-[16px] md:text-[20px] leading-[1.35]" style={{ fontFamily: "Montserrat, Inter, Lato, system-ui, sans-serif", fontWeight: 700, color: "hsl(var(--lp-white))" }}>
+              {item}
+            </p>
           </div>
-        </div>
+        ))}
       </div>
     </section>
   );

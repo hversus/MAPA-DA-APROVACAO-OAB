@@ -21,7 +21,7 @@ const HeroSection = () => {
             color: "hsl(var(--lp-white))",
           }}
         >
-          +60 MAPAS PRÁTICOS DE INVERSORES DE FREQUÊNCIA
+          MAPA DA APROVAÇÃO OAB
         </h1>
 
         <p
@@ -32,11 +32,11 @@ const HeroSection = () => {
             color: "hsl(var(--lp-lime))",
           }}
         >
-          ENCONTRE A APLICAÇÃO, ABRA O MAPA CORRESPONDENTE E SAIBA O QUE LIGAR, ONDE LIGAR, QUAIS PARÂMETROS CONFIGURAR E COMO TESTAR
+          ENCONTRE O ASSUNTO, ENTENDA A EXPLICAÇÃO E VEJA COMO APLICAR NOS EXEMPLOS PARA A PROVA
         </p>
 
         <div className="w-full flex items-center justify-center mb-6">
-          <ImagePlaceholder label="Insira seu mockup aqui" dark className="w-full max-w-[600px] aspect-square" />
+          <ImagePlaceholder label="Mockup ilustrativo do produto digital" dark className="w-full max-w-[600px] aspect-square" />
         </div>
 
         <p
@@ -47,7 +47,7 @@ const HeroSection = () => {
             color: "hsl(var(--lp-white) / 0.9)",
           }}
         >
-          Ligações de potência, circuitos de comando, identificação de bornes, parâmetros e testes funcionais organizados em 64 mapas práticos para aplicações reais com motores elétricos. Você abre no celular, localiza o serviço que precisa executar e visualiza, em uma única prancha, a montagem completa: alimentação, motor, comando, caminho dos fios, configuração necessária e sequência de teste.
+          Os fundamentos de 7 disciplinas organizados em uma apostila visual de 140 páginas, com explicações por assunto, mapas mentais, comparativos, artigos de lei, súmulas, exceções, fluxos processuais e exemplos jurídicos. Você abre no celular, localiza o tema que precisa estudar e acompanha o raciocínio com setas, classificações e explicações em etapas. Edição OAB [ANO/EXAME], para a prova de [DATA].
         </p>
 
 
@@ -110,14 +110,14 @@ const HeroSection = () => {
             document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })
           }
         >
-          <span className="text-[15px] md:text-[20px]">QUERO ACESSAR OS MAPAS PRÁTICOS AGORA</span>
+          <span className="text-[15px] md:text-[20px]">QUERO ACESSAR MEU MAPA DA APROVAÇÃO</span>
           <span className="text-[18px] md:text-[22px]">→</span>
         </button>
 
         <div className="flex flex-col items-center gap-2 mt-4">
           <img
             src={heroAvatars.url}
-            alt="Feito para eletricistas, técnicos de manutenção e instaladores"
+            alt="Imagem ilustrativa de pessoas"
             className="h-[48px] md:h-[56px] w-auto object-contain"
           />
           <p
@@ -129,7 +129,7 @@ const HeroSection = () => {
               letterSpacing: "0.5px",
             }}
           >
-            ELETRICISTAS, TÉCNICOS DE MANUTENÇÃO, ELETROTÉCNICOS E INSTALADORES
+            ESTUDANTES DE DIREITO, BACHARÉIS E CANDIDATOS À OAB
           </p>
           <p
             className="text-[15px] md:text-[18px] text-center"
@@ -140,7 +140,7 @@ const HeroSection = () => {
               letterSpacing: "0.5px",
             }}
           >
-            QUE PRECISAM LIGAR, CONFIGURAR E TESTAR INVERSORES EM SERVIÇOS REAIS
+            QUE QUEREM ORGANIZAR A REVISÃO E ENTENDER OS ASSUNTOS DA PROVA
           </p>
         </div>
       </div>

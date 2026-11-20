@@ -25,10 +25,10 @@ const Index = () => {
       <HeroSection />
 
 
-      {/* 3. Amostras dos Mapas Práticos */}
+      {/* 3. Como estudar os assuntos da OAB */}
       <DemoCarousel />
 
-      {/* 4. O que você encontra nos Mapas Práticos */}
+      {/* 4. O que você encontra no Mapa da Aprovação OAB */}
       <WhatYouFindSection />
 
       {/* 5. Urgência (Bloco vermelho) */}

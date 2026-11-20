@@ -13,7 +13,7 @@ const UrgencyRedSection = () => {
             color: 'hsl(var(--lp-white))',
           }}
         >
-          OFERTA PROMOCIONAL POR TEMPO LIMITADO
+          ORGANIZE SUA PREPARAÇÃO PARA A OAB
         </h2>
 
         <p
@@ -24,7 +24,7 @@ const UrgencyRedSection = () => {
             color: 'hsl(var(--lp-white) / 0.95)',
           }}
         >
-          Tenha em um único material 64 montagens práticas organizadas por tipo de ligação, comando, referência de velocidade e aplicação com motores elétricos. Pare de perder tempo procurando uma parte da ligação em um vídeo, outra no manual e outra em anotações espalhadas.
+          Tenha em um único material os fundamentos de 7 disciplinas, com explicações visuais, comparativos, referências legais e uma sequência organizada de revisão. Pare de perder tempo procurando um conceito em um lugar, o artigo em outro e suas anotações em arquivos espalhados.
         </p>
 
         <p
@@ -35,7 +35,7 @@ const UrgencyRedSection = () => {
             color: 'hsl(var(--lp-white) / 0.95)',
           }}
         >
-          Com os mapas separados por aplicação, você pode abrir o PDF, localizar o serviço que está executando e consultar diretamente o que ligar, onde ligar, quais configurações realizar e como testar a montagem antes de concluir o atendimento.
+          Com as unidades separadas por assunto, você pode abrir o PDF, localizar sua dúvida e acompanhar a explicação visual antes de resolver questões. Revise os exemplos, compare os conceitos e identifique o que precisa retomar na preparação para a prova de [DATA].
         </p>
 
         <button

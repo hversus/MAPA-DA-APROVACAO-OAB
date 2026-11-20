@@ -11,15 +11,15 @@ import iconGmail from "@/assets/icon-gmail.png.asset.json";
 const FONT = "Montserrat, Inter, Lato, system-ui, sans-serif";
 
 const basicFeatures = [
-  "+60 Mapas Práticos de Inversores de Frequência",
+  "Mapa da Aprovação OAB • 140 páginas",
 ];
 
 const completeFeatures = [
-  "+60 Mapas Práticos de Inversores de Frequência",
-  "Bônus 1: +30 Rotas Visuais de Falhas e Alarmes em Inversores de Frequência",
-  "Bônus 2: Tabela Rápida de Parâmetros Essenciais por Função",
-  "Bônus 3: +25 Testes Elétricos com Multímetro e Alicate Amperímetro",
-  "Bônus 4: Kit de Comissionamento e Registro de Parametrização",
+  "Mapa da Aprovação OAB • 140 páginas",
+  "Guia de Artigos, Súmulas e Prazos OAB",
+  "Treino de Questões Comentadas",
+  "Plano de Estudo de 25 Dias",
+  "Registro de Erros e Revisões",
   "Envio imediato por WhatsApp e e-mail",
   "Acesso vitalício ao material",
   "Garantia de 15 dias incondicional",
@@ -46,7 +46,7 @@ const PricingSection = () => {
               className="text-[14px] md:text-[17px] font-extrabold tracking-wide text-white uppercase"
               style={{ fontFamily: FONT }}
             >
-              Oferta válida por tempo limitado
+              PREPARE SUA RETA FINAL
             </span>
           </div>
         </div>
@@ -57,8 +57,8 @@ const PricingSection = () => {
             className="text-[24px] md:text-[36px] leading-[1.15]"
             style={{ fontFamily: FONT, fontWeight: 800, color: "hsl(var(--lp-black))" }}
           >
-            Aproveite Enquanto o <br className="hidden md:block" />
-            Plano Completo está em <span style={{ color: "hsl(var(--lp-danger))" }}>Promoção!</span>
+            Escolha como você quer <br className="hidden md:block" />
+            estudar para a OAB!
           </h2>
           <p
             className="mt-3 text-[15px] md:text-[19px] leading-[1.4] flex flex-wrap items-center justify-center gap-x-2 gap-y-1"
@@ -99,7 +99,7 @@ const PricingSection = () => {
             </h3>
 
             <div className="mb-[16px] flex items-center justify-center">
-              <ImagePlaceholder label="Insira o mockup do Plano Básico aqui" className="w-full max-w-[300px] aspect-square" />
+              <ImagePlaceholder label="Mockup Plano Básico · Mapa da Aprovação OAB" className="w-full max-w-[300px] aspect-square" />
             </div>
 
 
@@ -126,7 +126,7 @@ const PricingSection = () => {
               className="text-center text-[20px] md:text-[24px] mb-[2px] line-through"
               style={{ fontFamily: FONT, fontWeight: 700, color: "hsl(var(--lp-danger))" }}
             >
-              R$39,90
+              R$[PREÇO DE]
             </p>
 
             <div className="text-center mb-[4px]">
@@ -134,7 +134,7 @@ const PricingSection = () => {
                 className="text-[42px] md:text-[52px]"
                 style={{ fontFamily: FONT, fontWeight: 800, color: "hsl(var(--lp-check))" }}
               >
-                R$17,90
+                R$[PREÇO PROMOCIONAL]
               </span>
             </div>
 
@@ -142,7 +142,7 @@ const PricingSection = () => {
               className="text-center text-[15px] md:text-[19px] mb-[12px]"
               style={{ fontFamily: FONT, fontWeight: 600, color: "hsl(var(--lp-black) / 0.7)" }}
             >
-              ou 2x de R$9,42 no cartão
+              ou [NÚMERO]x de R$[VALOR] no cartão
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 mb-[14px] text-center">
@@ -195,7 +195,7 @@ const PricingSection = () => {
                   letterSpacing: "0.06em",
                 }}
               >
-                Ainda dá tempo de levar a melhor opção!
+                Ainda dá tempo de levar a melhor opção
               </div>
             </div>
 
@@ -214,7 +214,7 @@ const PricingSection = () => {
                   fontFamily: FONT,
                 }}
               >
-                ⭐ Mais Vendido
+                ⭐ Melhor opção
               </span>
             </div>
 
@@ -251,11 +251,11 @@ const PricingSection = () => {
                   className="text-center text-[17px] md:text-[20px] leading-[1.2] mb-[16px] uppercase"
                   style={{ fontFamily: FONT, fontWeight: 800, color: "hsl(var(--lp-white))" }}
                 >
-                  +60 Mapas Práticos de Inversores de Frequência
+                  Mapa da Aprovação OAB
                 </h4>
 
                 <div className="flex justify-center mb-[18px]">
-                  <ImagePlaceholder label="Insira o mockup do Plano Completo aqui" dark className="w-full max-w-[340px] aspect-square" />
+                  <ImagePlaceholder label="Mockup ilustrativo do plano completo" dark className="w-full max-w-[340px] aspect-square" />
                 </div>
 
 
@@ -282,7 +282,7 @@ const PricingSection = () => {
                   className="text-center text-[20px] md:text-[24px] mb-[2px] line-through"
                   style={{ fontFamily: FONT, fontWeight: 700, color: "hsl(var(--lp-danger))" }}
                 >
-                  R$59,90
+                  R$[PREÇO DE]
                 </p>
 
                 <div className="text-center mb-[4px]">
@@ -290,7 +290,7 @@ const PricingSection = () => {
                     className="text-[48px] md:text-[58px]"
                     style={{ fontFamily: FONT, fontWeight: 800, color: "hsl(var(--lp-lime))" }}
                   >
-                    R$27,90
+                    R$[PREÇO PROMOCIONAL]
                   </span>
                 </div>
 
@@ -298,7 +298,7 @@ const PricingSection = () => {
                   className="text-center text-[15px] md:text-[19px] mb-[14px]"
                   style={{ fontFamily: FONT, fontWeight: 600, color: "hsl(var(--lp-white) / 0.75)" }}
                 >
-                  ou 3x de R$9,96 no cartão
+                  ou [NÚMERO]x de R$[VALOR] no cartão
                 </p>
 
                 <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 mb-[16px] text-center">

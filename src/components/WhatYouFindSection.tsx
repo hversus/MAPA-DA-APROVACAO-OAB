@@ -3,24 +3,24 @@ import ImagePlaceholder from "./ImagePlaceholder";
 
 const items = [
   {
-    title: "Montagens completas organizadas por aplicação",
+    title: "Assuntos organizados para você se localizar",
     description:
-      "Localize o serviço que precisa executar e abra o mapa correspondente para visualizar a montagem completa, sem precisar reunir partes da solução em diferentes vídeos, manuais e anotações.",
+      "Abra o índice, encontre a disciplina e vá direto ao tema que precisa estudar. A estrutura relaciona os assuntos às páginas e facilita a localização dos conceitos, artigos, súmulas, exceções e procedimentos necessários para continuar sua preparação.",
   },
   {
-    title: "Ligações, bornes e caminho dos fios",
+    title: "Explicações que você acompanha visualmente",
     description:
-      "Visualize a alimentação do inversor, a ligação do motor, o circuito de comando, os componentes envolvidos, os bornes utilizados e o caminho de cada fio dentro da aplicação.",
+      "Entenda conceitos jurídicos com textos curtos, setas, ícones, classificações e comparativos. Veja as diferenças entre temas parecidos e acompanhe as relações entre regras, exceções e aplicações práticas em uma sequência mais fácil de revisar.",
   },
   {
-    title: "Parâmetros necessários para cada montagem",
+    title: "Exemplos jurídicos em etapas",
     description:
-      "Confira quais funções precisam ser configuradas para colocar a aplicação em funcionamento, incluindo dados do motor, fonte de comando, referência de velocidade, entradas, saídas, rampas e demais ajustes exigidos pela montagem.",
+      "Acompanhe como os conceitos aparecem nas situações apresentadas e como identificar a resposta adequada. Refaça os exemplos, observe os elementos do caso e entenda como aplicar os artigos, classificações e procedimentos estudados.",
   },
   {
-    title: "Teste funcional e resposta esperada",
+    title: "Revisão dos pontos que precisam de reforço",
     description:
-      "Depois de realizar a ligação e a parametrização, siga a sequência indicada para testar o conjunto e conferir se o inversor, o comando e o motor estão respondendo como previsto.",
+      "Confira os conteúdos que já revisou, identifique os assuntos que ainda geram dúvidas e organize as próximas retomadas. Use o material para conectar conceitos e revisar de forma mais objetiva.",
   },
 ];
 
@@ -40,7 +40,7 @@ const WhatYouFindSection = () => {
               color: "hsl(var(--lp-white))",
             }}
           >
-            O que você encontra nos +60 Mapas Práticos de Inversores de Frequência
+            O que você encontra no Mapa da Aprovação OAB
           </h2>
         </div>
 
@@ -49,7 +49,7 @@ const WhatYouFindSection = () => {
             className="w-full rounded-[16px] overflow-hidden"
             style={{ backgroundColor: "hsl(var(--lp-white))" }}
           >
-            <ImagePlaceholder label="Insira sua imagem aqui" className="w-full aspect-[3/4]" />
+            <ImagePlaceholder label="Mockup ilustrativo do produto digital" className="w-full aspect-[3/4]" />
           </div>
 
           <div className="flex flex-col gap-4 md:gap-5">

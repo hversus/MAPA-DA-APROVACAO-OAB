@@ -3,56 +3,56 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "Como recebo os +60 Mapas Práticos de Inversores de Frequência?",
-    answer: "O acesso é enviado logo após a confirmação do pagamento, direto no seu WhatsApp e no seu e-mail. O material é em PDF e pode ser baixado na hora.",
+    question: "Como recebo o Mapa da Aprovação OAB?",
+    answer: "",
   },
   {
-    question: "Consigo localizar rapidamente a aplicação que preciso executar?",
-    answer: "Sim. O material é organizado por aplicação, o que permite localizar o mapa correspondente e abrir direto na montagem que você precisa executar.",
+    question: "Consigo encontrar rapidamente o assunto que preciso revisar?",
+    answer: "",
   },
   {
-    question: "Os mapas apresentam montagens completas ou apenas explicações sobre inversores?",
-    answer: "Os mapas apresentam montagens completas. Cada prancha mostra a aplicação do começo ao fim, e não apenas explicações teóricas sobre inversores.",
+    question: "O material ensina os assuntos ou traz apenas tópicos?",
+    answer: "",
   },
   {
-    question: "O material mostra as ligações de potência e de comando?",
-    answer: "Sim. Cada mapa apresenta a alimentação, a ligação de potência e o circuito de comando utilizado na aplicação.",
+    question: "O material apresenta artigos de lei, súmulas e exceções?",
+    answer: "",
   },
   {
-    question: "Os mapas identificam os bornes e o caminho dos fios?",
-    answer: "Sim. Os bornes utilizados são identificados e o caminho de cada fio é indicado, para você saber o que ligar e onde ligar.",
+    question: "O material mostra as diferenças entre conceitos jurídicos?",
+    answer: "",
   },
   {
-    question: "O material apresenta as configurações necessárias e a sequência de teste?",
-    answer: "Sim. Cada mapa traz os dados do motor, as funções e os parâmetros exigidos, a sequência de configuração e o teste funcional indicado.",
+    question: "Consigo acompanhar os fluxos e procedimentos em etapas?",
+    answer: "",
   },
   {
-    question: "Os mapas estão organizados por tipo de ligação, comando e aplicação?",
-    answer: "Sim. A organização segue tipo de ligação, tipo de comando e aplicação, o que facilita a consulta durante o serviço.",
+    question: "O material é organizado por disciplinas?",
+    answer: "",
   },
   {
-    question: "Serve para eletricistas que realizam instalações e manutenções industriais?",
-    answer: "Sim. O material foi feito para uso prático em campo, tanto em instalações novas quanto em manutenções.",
+    question: "Serve para bacharéis que estão se preparando para a OAB?",
+    answer: "",
   },
   {
-    question: "Serve para técnicos, eletrotécnicos, instaladores e estudantes da área?",
-    answer: "Sim. O conteúdo é visual e direto, atendendo tanto quem já atua na área quanto quem está em formação.",
+    question: "Serve para estudantes de Direito?",
+    answer: "",
   },
   {
-    question: "O material substitui as especificações técnicas e os procedimentos do equipamento instalado?",
-    answer: "Não. O material é um guia visual de apoio. As especificações técnicas, os manuais e os procedimentos do equipamento instalado devem sempre ser consultados e respeitados.",
+    question: "A apostila esgota o edital ou garante a aprovação?",
+    answer: "",
   },
   {
     question: "Quanto tempo leva para receber o material?",
-    answer: "O acesso é imediato. Assim que o pagamento é confirmado, você recebe o material no WhatsApp e no e-mail.",
+    answer: "",
   },
   {
     question: "Posso imprimir o PDF?",
-    answer: "Sim. Você pode imprimir as páginas que desejar e levar os mapas para o local do serviço.",
+    answer: "",
   },
   {
     question: "O material possui garantia?",
-    answer: "Sim. Você tem 15 dias de garantia. Se não gostar do material, é só solicitar a devolução e o valor é reembolsado.",
+    answer: "",
   }
 ];
 
@@ -134,7 +134,7 @@ const FAQSection = () => {
                 </div>
               </button>
 
-              {openIndex === index && (
+              {openIndex === index && faq.answer && (
                 <div className="px-[16px] md:px-[18px] pb-[16px] md:pb-[18px]">
                   <p
                     className="text-[15px] md:text-[17px] leading-relaxed"
@@ -164,7 +164,7 @@ const FAQSection = () => {
               boxShadow: '0 4px 0 hsl(var(--lp-lime-shadow)), 0 8px 25px hsl(0 0% 0% / 0.15)',
             }}
           >
-            <span className="text-[16px] md:text-[20px]">SIM, QUERO ACESSAR OS MAPAS PRÁTICOS AGORA! →</span>
+            <span className="text-[16px] md:text-[20px]">SIM, QUERO MEU MAPA DA APROVAÇÃO AGORA! →</span>
           </button>
         </div>
       </div>

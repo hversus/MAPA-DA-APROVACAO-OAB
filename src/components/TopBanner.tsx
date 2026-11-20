@@ -11,7 +11,7 @@ const TopBanner = () => {
         className="text-[13px] md:text-[17px] font-bold text-white tracking-wide text-center uppercase"
         style={{ fontFamily: "Montserrat, Inter, Lato, system-ui, sans-serif" }}
       >
-        OFERTA DISPONÍVEL SOMENTE HOJE
+        PREPARE SUA RETA FINAL PARA A OAB
       </span>
     </div>
   );

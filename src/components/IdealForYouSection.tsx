@@ -2,16 +2,16 @@ import checkMark from "@/assets/check-mark.svg";
 
 const idealItems = [
   {
-    description: "Encontrar a aplicação correspondente ao serviço e visualizar a montagem completa sem precisar criar o circuito do zero.",
+      description: "Organizar a preparação para a OAB e encontrar o assunto que precisa revisar sem se perder entre arquivos e anotações.",
   },
   {
-    description: "Identificar rapidamente a ligação de potência, o circuito de comando, os bornes envolvidos e o caminho de cada fio.",
+      description: "Compreender os principais conceitos jurídicos com explicações curtas, comparativos e exemplos visuais.",
   },
   {
-    description: "Conferir as funções e configurações necessárias para colocar o inversor e o motor em funcionamento naquela aplicação.",
+      description: "Diferenciar temas parecidos, identificar exceções e entender como aplicar cada conteúdo.",
   },
   {
-    description: "Executar o teste indicado, observar a resposta esperada e confirmar o funcionamento da montagem antes de finalizar o serviço.",
+      description: "Revisar artigos de lei, súmulas, classificações e procedimentos de forma mais prática e organizada.",
   },
 ];
 

@@ -16,13 +16,13 @@ const steps: Step[] = [
   {
     number: "Passo 1",
     icon: cartAsset.url,
-    title: "",
+    title: "Passo 1",
     description: "Você finaliza a compra de forma segura.",
   },
   {
     number: "Passo 2",
     icon: cardAsset.url,
-    title: "",
+    title: "Passo 2",
     description: "Receba o acesso na hora, direto no seu WhatsApp e no seu e-mail.",
     extra: "O material é liberado logo após a confirmação do pagamento.",
     bullets: ["Celular", "Tablet", "Computador"],
@@ -30,12 +30,12 @@ const steps: Step[] = [
   {
     number: "Passo 3",
     icon: folderAsset.url,
-    title: "",
+    title: "Passo 3",
     description: "Baixe e visualize o material.",
     extra: "Você poderá:",
     bullets: [
-      "Baixar os mapas em PDF",
-      "Consultar antes e durante os serviços",
+      "Baixar a apostila em PDF",
+      "Estudar e revisar os assuntos",
       "Imprimir as páginas que desejar",
     ],
   },
@@ -94,6 +94,18 @@ const HowToAccessSection = () => {
               >
                 {step.number}
               </h3>
+              {step.title && (
+                <p
+                  className="text-[16px] md:text-[18px] mb-2"
+                  style={{
+                    fontFamily: "Montserrat, Inter, Lato, system-ui, sans-serif",
+                    fontWeight: 800,
+                    color: "hsl(var(--lp-black))",
+                  }}
+                >
+                  {step.title}
+                </p>
+              )}
               {step.description && (
                 <p
                   className="text-[16px] md:text-[19px] leading-relaxed"
