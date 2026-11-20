@@ -1,11 +1,9 @@
 import { Check } from "lucide-react";
-import ImagePlaceholder from "./ImagePlaceholder";
-
-
 
 const bonuses = [
   {
     number: 1,
+    image: "/bonus-webp/bonus-01-guia-artigos-sumulas-oab.webp",
     title: "Guia de Artigos, Súmulas e Prazos OAB",
     description:
       "Referências importantes reunidas por assunto para consultar durante a revisão. Localize o artigo, a súmula ou o prazo relacionado ao tema estudado e confira os principais pontos de atenção.",
@@ -13,6 +11,7 @@ const bonuses = [
   },
   {
     number: 2,
+    image: "/bonus-webp/bonus-02-treino-questoes-oab.webp",
     title: "Treino de Questões Comentadas",
     description:
       "Questões para colocar os conceitos em prática e conferir o raciocínio. Resolva antes de olhar a resposta, acompanhe a explicação e identifique se sua dificuldade está na interpretação, no conceito ou na aplicação da norma.",
@@ -20,6 +19,7 @@ const bonuses = [
   },
   {
     number: 3,
+    image: "/bonus-webp/bonus-03-plano-estudo-oab.webp",
     title: "Plano de Estudo de 25 Dias",
     description:
       "Uma sequência de estudo para distribuir os assuntos na reta final, alternando leitura, resolução de questões e retomada dos erros. Adapte as sessões à sua rotina e acompanhe as tarefas concluídas até o dia da prova.",
@@ -27,6 +27,7 @@ const bonuses = [
   },
   {
     number: 4,
+    image: "/bonus-webp/bonus-04-registro-erros-revisoes-oab.webp",
     title: "Registro de Erros e Revisões",
     description:
       "Fichas para anotar a questão, o assunto, o motivo do erro e o raciocínio correto. Organize as próximas revisões e acompanhe se conseguiu resolver novamente sem consultar a resposta.",
@@ -94,10 +95,13 @@ const BonusSection = () => {
                 className="aspect-[4/3] relative flex items-center justify-center overflow-hidden"
                 style={{ backgroundColor: "hsl(var(--lp-accent-light))" }}
               >
-                <ImagePlaceholder label={`Mockup do Bônus #${bonus.number}`} className="w-full h-full" />
-
-
-
+                <img
+                  src={bonus.image}
+                  alt={`Mockup do ${bonus.title}`}
+                  className="w-full h-full object-contain p-2 md:p-3"
+                  loading="lazy"
+                  decoding="async"
+                />
 
                 <div
                   className="absolute top-3 left-3 inline-flex items-center justify-center rounded-full px-3.5 h-[28px]"
@@ -184,3 +188,4 @@ const BonusSection = () => {
 };
 
 export default BonusSection;
+
