@@ -1,7 +1,4 @@
 import { Zap, Smartphone } from "lucide-react";
-import iconWhatsapp from "@/assets/icon-whatsapp.png.asset.json";
-import iconGmail from "@/assets/icon-gmail.png.asset.json";
-import heroAvatars from "@/assets/hero-eletricistas-avatars.png.asset.json";
 
 const HeroSection = () => {
   const fontFamily = "Montserrat, Inter, Lato, system-ui, sans-serif";
@@ -36,9 +33,13 @@ const HeroSection = () => {
 
         <div className="w-full flex items-center justify-center mb-6">
           <img
-            src="/produto-oab/mockup-plano-completo-oab-2027-1-v2.webp"
+            src="/produto-oab/mockup-plano-completo-oab-2027-1-v2-700.webp"
+            srcSet="/produto-oab/mockup-plano-completo-oab-2027-1-v2-700.webp 700w, /produto-oab/mockup-plano-completo-oab-2027-1-v2.webp 1254w"
+            sizes="(max-width: 640px) calc(100vw - 40px), 600px"
             alt="Mapa da Aprovação OAB — Plano Completo com bônus"
             className="w-full max-w-[600px] h-auto object-contain"
+            width={1254}
+            height={1254}
             fetchPriority="high"
             decoding="async"
           />
@@ -94,9 +95,9 @@ const HeroSection = () => {
           }}
         >
           <span className="w-full md:w-auto">Você recebe tudo na hora, direto no seu</span>
-          <img src={iconWhatsapp.url} alt="WhatsApp" className="w-[20px] h-[20px] inline-block" />
+          <img src="/assets/icon-whatsapp.webp" alt="WhatsApp" className="w-[20px] h-[20px] inline-block" width={64} height={64} />
           <span>WhatsApp e no seu</span>
-          <img src={iconGmail.url} alt="E-mail" className="w-[20px] h-[20px] inline-block" />
+          <img src="/assets/icon-gmail.webp" alt="E-mail" className="w-[20px] h-[20px] inline-block" width={64} height={64} />
           <span>e-mail</span>
         </p>
 
@@ -121,9 +122,11 @@ const HeroSection = () => {
 
         <div className="flex flex-col items-center gap-2 mt-4">
           <img
-            src={heroAvatars.url}
+            src="/assets/hero-avatars.webp"
             alt="Imagem ilustrativa de pessoas"
             className="h-[48px] md:h-[56px] w-auto object-contain"
+            width={437}
+            height={146}
           />
           <p
             className="text-[15px] md:text-[18px] text-center"

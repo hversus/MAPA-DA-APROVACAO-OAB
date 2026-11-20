@@ -2,56 +2,78 @@ const slides = [
   {
     src: "/oab-destaques-webp/01-pagina-001-poder-constituinte.webp",
     alt: "Página 1 — Poder Constituinte",
+    width: 1055,
+    height: 1491,
   },
   {
     src: "/oab-destaques-webp/02-pagina-004-direito-igualdade.webp",
     alt: "Página 4 — Direito à Igualdade",
+    width: 1055,
+    height: 1491,
   },
   {
     src: "/oab-destaques-webp/03-pagina-008-direitos-politicos.webp",
     alt: "Página 8 — Direitos Políticos",
+    width: 900,
+    height: 1272,
   },
   {
     src: "/oab-destaques-webp/04-pagina-035-aviso-previo.webp",
     alt: "Página 35 — Aviso Prévio",
+    width: 900,
+    height: 1272,
   },
   {
     src: "/oab-destaques-webp/05-pagina-047-erro-proibicao.webp",
     alt: "Página 47 — Erro de Proibição",
+    width: 1000,
+    height: 1413,
   },
   {
     src: "/oab-destaques-webp/06-pagina-067-suspensao-credito-tributario.webp",
     alt: "Página 67 — Suspensão da Exigibilidade do Crédito Tributário",
+    width: 900,
+    height: 1272,
   },
   {
     src: "/oab-destaques-webp/07-pagina-083-inscricao-oab.webp",
     alt: "Página 83 — Inscrição na OAB",
+    width: 960,
+    height: 1357,
   },
   {
     src: "/oab-destaques-webp/08-pagina-092-prerrogativas-advogado.webp",
     alt: "Página 92 — Direitos e Prerrogativas do Advogado",
+    width: 1000,
+    height: 1413,
   },
   {
     src: "/oab-destaques-webp/09-pagina-107-processo-conhecimento-trabalhista.webp",
     alt: "Página 107 — Processo de Conhecimento do Trabalho",
+    width: 900,
+    height: 1272,
   },
   {
     src: "/oab-destaques-webp/10-pagina-138-procedimento-comum-sumario.webp",
     alt: "Página 138 — Procedimento Comum Sumário",
+    width: 1000,
+    height: 1413,
   },
 ];
 
 const DemoCarousel = () => {
   const renderGroup = (duplicate = false) => (
     <div className="oab-carousel-group" aria-hidden={duplicate}>
-      {slides.map((slide) => (
+      {slides.map((slide, index) => (
         <div className="oab-carousel-card" key={`${duplicate ? "duplicate-" : ""}${slide.src}`}>
           <img
             src={slide.src}
             alt={duplicate ? "" : slide.alt}
             className="block w-full h-auto rounded-[16px]"
-            loading={duplicate ? "lazy" : "eager"}
+            loading={duplicate || index > 0 ? "lazy" : "eager"}
             decoding="async"
+            width={slide.width}
+            height={slide.height}
           />
         </div>
       ))}

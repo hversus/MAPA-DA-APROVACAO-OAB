@@ -1,7 +1,4 @@
 import { Check } from "lucide-react";
-import cartAsset from "@/assets/step-cart.png.asset.json";
-import cardAsset from "@/assets/step-card.png.asset.json";
-import folderAsset from "@/assets/step-folder.png.asset.json";
 
 type Step = {
   number: string;
@@ -15,13 +12,13 @@ type Step = {
 const steps: Step[] = [
   {
     number: "Passo 1",
-    icon: cartAsset.url,
+    icon: "/assets/step-cart.webp",
     title: "Passo 1",
     description: "Você finaliza a compra de forma segura.",
   },
   {
     number: "Passo 2",
-    icon: cardAsset.url,
+    icon: "/assets/step-card.webp",
     title: "Passo 2",
     description: "Receba o acesso na hora, direto no seu WhatsApp e no seu e-mail.",
     extra: "O material é liberado logo após a confirmação do pagamento.",
@@ -29,7 +26,7 @@ const steps: Step[] = [
   },
   {
     number: "Passo 3",
-    icon: folderAsset.url,
+    icon: "/assets/step-folder.webp",
     title: "Passo 3",
     description: "Baixe e visualize o material.",
     extra: "Você poderá:",
@@ -83,6 +80,8 @@ const HowToAccessSection = () => {
                 src={step.icon}
                 alt={step.number}
                 className="w-[72px] h-[72px] md:w-[80px] md:h-[80px] object-contain mb-4"
+                width={512}
+                height={512}
               />
               <h3
                 className="text-[16px] md:text-[18px] mb-2"
@@ -176,3 +175,4 @@ const HowToAccessSection = () => {
 };
 
 export default HowToAccessSection;
+

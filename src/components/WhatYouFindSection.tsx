@@ -49,9 +49,13 @@ const WhatYouFindSection = () => {
             style={{ backgroundColor: "hsl(var(--lp-white))" }}
           >
             <img
-              src="/produto-oab/Gemini_Generated_Image_daoac3daoac3daoa.webp"
+              src="/produto-oab/Gemini_Generated_Image_daoac3daoac3daoa-720.webp"
+              srcSet="/produto-oab/Gemini_Generated_Image_daoac3daoac3daoa-720.webp 720w, /produto-oab/Gemini_Generated_Image_daoac3daoac3daoa.webp 1109w"
+              sizes="(max-width: 767px) calc(100vw - 40px), 50vw"
               alt="Pessoa apresentando o Mapa da Aprovação OAB"
               className="w-full h-auto object-contain"
+              width={720}
+              height={1396}
               loading="lazy"
               decoding="async"
             />

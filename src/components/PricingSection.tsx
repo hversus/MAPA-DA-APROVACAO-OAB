@@ -1,8 +1,6 @@
 import { Check, ArrowRight, Shield } from "lucide-react";
 import paymentIcons from "@/assets/payment-icons.webp";
 import clockIcon from "@/assets/clock-alarm.svg";
-import iconWhatsapp from "@/assets/icon-whatsapp.png.asset.json";
-import iconGmail from "@/assets/icon-gmail.png.asset.json";
 
 
 
@@ -65,12 +63,12 @@ const PricingSection = () => {
           >
             <span>E receba instantaneamente no seu</span>
             <span className="inline-flex items-center gap-1.5">
-              <img src={iconWhatsapp.url} alt="" className="w-[20px] h-[20px] md:w-[22px] md:h-[22px] object-contain" />
+            <img src="/assets/icon-whatsapp.webp" alt="" className="w-[20px] h-[20px] md:w-[22px] md:h-[22px] object-contain" width={64} height={64} />
               WhatsApp
             </span>
             <span>e</span>
             <span className="inline-flex items-center gap-1.5">
-              <img src={iconGmail.url} alt="" className="w-[20px] h-[20px] md:w-[22px] md:h-[22px] object-contain" />
+            <img src="/assets/icon-gmail.webp" alt="" className="w-[20px] h-[20px] md:w-[22px] md:h-[22px] object-contain" width={64} height={64} />
               e-mail
             </span>
           </p>
@@ -99,9 +97,13 @@ const PricingSection = () => {
 
             <div className="mb-[16px] flex items-center justify-center rounded-[14px] overflow-hidden">
               <img
-                src="/produto-oab/mockup-principal-oab-2027-1-v5-transparent-300kb.webp"
+                src="/produto-oab/mockup-principal-oab-2027-1-v5-transparent-300kb-700.webp"
+                srcSet="/produto-oab/mockup-principal-oab-2027-1-v5-transparent-300kb-700.webp 700w, /produto-oab/mockup-principal-oab-2027-1-v5-transparent-300kb.webp 1254w"
+                sizes="min(340px, calc(100vw - 40px))"
                 alt="Mapa da Aprovação OAB — Plano Básico"
                 className="w-full max-w-[340px] h-auto object-contain"
+                width={1254}
+                height={1254}
                 loading="lazy"
                 decoding="async"
               />
@@ -157,12 +159,12 @@ const PricingSection = () => {
               >
                 Receba direto no seu
                 <span className="inline-flex items-center gap-1">
-                  <img src={iconWhatsapp.url} alt="" className="w-[16px] h-[16px] object-contain" />
+                  <img src="/assets/icon-whatsapp.webp" alt="" className="w-[16px] h-[16px] object-contain" width={64} height={64} />
                   WhatsApp
                 </span>
                 e
                 <span className="inline-flex items-center gap-1">
-                  <img src={iconGmail.url} alt="" className="w-[16px] h-[16px] object-contain" />
+                  <img src="/assets/icon-gmail.webp" alt="" className="w-[16px] h-[16px] object-contain" width={64} height={64} />
                   e-mail
                 </span>
               </span>
@@ -261,9 +263,13 @@ const PricingSection = () => {
 
                 <div className="flex justify-center mb-[18px] rounded-[14px] overflow-hidden">
                   <img
-                    src="/produto-oab/mockup-plano-completo-oab-2027-1-v2.webp"
+                    src="/produto-oab/mockup-plano-completo-oab-2027-1-v2-700.webp"
+                    srcSet="/produto-oab/mockup-plano-completo-oab-2027-1-v2-700.webp 700w, /produto-oab/mockup-plano-completo-oab-2027-1-v2.webp 1254w"
+                    sizes="min(340px, calc(100vw - 40px))"
                     alt="Mapa da Aprovação OAB — Plano Completo com bônus"
                     className="w-full max-w-[340px] h-auto object-contain"
+                    width={1254}
+                    height={1254}
                     loading="lazy"
                     decoding="async"
                   />
@@ -319,12 +325,12 @@ const PricingSection = () => {
                   >
                     Receba direto no seu
                     <span className="inline-flex items-center gap-1">
-                      <img src={iconWhatsapp.url} alt="" className="w-[16px] h-[16px] object-contain" />
+                      <img src="/assets/icon-whatsapp.webp" alt="" className="w-[16px] h-[16px] object-contain" width={64} height={64} />
                       WhatsApp
                     </span>
                     e
                     <span className="inline-flex items-center gap-1">
-                      <img src={iconGmail.url} alt="" className="w-[16px] h-[16px] object-contain" />
+                      <img src="/assets/icon-gmail.webp" alt="" className="w-[16px] h-[16px] object-contain" width={64} height={64} />
                       e-mail
                     </span>
                   </span>
