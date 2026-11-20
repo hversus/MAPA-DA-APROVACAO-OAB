@@ -84,13 +84,14 @@ const DemoCarousel = () => {
 
         .oab-carousel-group {
           display: flex;
-          flex: 0 0 calc((var(--oab-carousel-card-width) * 10) + (var(--oab-carousel-gap) * 9));
+          flex: none;
           gap: var(--oab-carousel-gap);
           align-items: center;
         }
 
         .oab-carousel-card {
           flex: 0 0 var(--oab-carousel-card-width);
+          width: var(--oab-carousel-card-width);
           min-width: 0;
           padding: 0 8px;
           box-sizing: border-box;
@@ -129,10 +130,6 @@ const DemoCarousel = () => {
           .oab-carousel-track {
             width: max-content;
             animation: oab-carousel-marquee 48s linear infinite;
-          }
-
-          .oab-carousel-group {
-            flex: 0 0 calc((var(--oab-carousel-card-width) * 10) + (var(--oab-carousel-gap) * 9));
           }
 
           .oab-carousel-group[aria-hidden="true"] {
