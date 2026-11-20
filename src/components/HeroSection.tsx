@@ -47,7 +47,7 @@ const HeroSection = () => {
             color: "hsl(var(--lp-white) / 0.9)",
           }}
         >
-          Os fundamentos de 7 disciplinas organizados em uma apostila visual de 140 páginas, com explicações por assunto, mapas mentais, comparativos, artigos de lei, súmulas, exceções, fluxos processuais e exemplos jurídicos. Você abre no celular, localiza o tema que precisa estudar e acompanha o raciocínio com setas, classificações e explicações em etapas. Edição OAB [ANO/EXAME], para a prova de [DATA].
+          Os fundamentos de 7 disciplinas organizados em uma apostila visual de 140 páginas, com explicações por assunto, mapas mentais, comparativos, artigos de lei, súmulas, exceções, fluxos processuais e exemplos jurídicos. Você abre no celular, localiza o tema que precisa estudar e acompanha o raciocínio com setas, classificações e explicações em etapas. Edição OAB 48, para a prova de 10 de janeiro.
         </p>
 
 

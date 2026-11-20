@@ -2,7 +2,7 @@ import { Check, Zap } from "lucide-react";
 import ImagePlaceholder from "./ImagePlaceholder";
 
 const items = [
-  "Mapa da Aprovação OAB • edição [ANO/EXAME]",
+  "Mapa da Aprovação OAB • edição 48",
   "Apostila visual em PDF, organizada por disciplina e assunto",
   "140 páginas para estudar, revisar e aplicar",
   "Fundamentos de 7 disciplinas do exame",

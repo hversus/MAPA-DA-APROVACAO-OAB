@@ -35,7 +35,7 @@ const UrgencyRedSection = () => {
             color: 'hsl(var(--lp-white) / 0.95)',
           }}
         >
-          Com as unidades separadas por assunto, você pode abrir o PDF, localizar sua dúvida e acompanhar a explicação visual antes de resolver questões. Revise os exemplos, compare os conceitos e identifique o que precisa retomar na preparação para a prova de [DATA].
+          Com as unidades separadas por assunto, você pode abrir o PDF, localizar sua dúvida e acompanhar a explicação visual antes de resolver questões. Revise os exemplos, compare os conceitos e identifique o que precisa retomar na preparação para a prova de 10 de janeiro.
         </p>
 
         <button
