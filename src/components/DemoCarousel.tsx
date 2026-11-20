@@ -120,27 +120,23 @@ const DemoCarousel = () => {
 
         @media (max-width: 639px) {
           .oab-carousel-viewport {
-            overflow-x: auto;
+            overflow-x: hidden;
             overflow-y: hidden;
-            -webkit-overflow-scrolling: touch;
-            scroll-snap-type: x mandatory;
           }
+
+          .oab-carousel-section { --oab-carousel-card-width: 92vw; }
 
           .oab-carousel-track {
             width: max-content;
-            animation: none;
+            animation: oab-carousel-marquee 48s linear infinite;
           }
 
           .oab-carousel-group {
-            flex: 0 0 auto;
+            flex: 0 0 calc((var(--oab-carousel-card-width) * 10) + (var(--oab-carousel-gap) * 9));
           }
 
           .oab-carousel-group[aria-hidden="true"] {
-            display: none;
-          }
-
-          .oab-carousel-card {
-            flex: 0 0 92vw;
+            display: flex;
           }
         }
 
