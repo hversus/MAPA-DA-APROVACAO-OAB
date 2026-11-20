@@ -4,55 +4,55 @@ import { Plus, Minus } from "lucide-react";
 const faqs = [
   {
     question: "Como recebo o Mapa da Aprovação OAB?",
-    answer: "",
+    answer: "O acesso é enviado logo após a confirmação do pagamento, diretamente no seu WhatsApp e no seu e-mail. O material é digital em PDF e você poderá baixar e visualizar a apostila.",
   },
   {
     question: "Consigo encontrar rapidamente o assunto que preciso revisar?",
-    answer: "",
+    answer: "Sim. A apostila possui um índice para localizar rapidamente os temas, com unidades organizadas por disciplina e assunto para você ir direto ao conteúdo que precisa revisar.",
   },
   {
     question: "O material ensina os assuntos ou traz apenas tópicos?",
-    answer: "",
+    answer: "O material apresenta explicações visuais, textos curtos, comparativos, classificações, fluxos e exemplos jurídicos. Portanto, você acompanha o raciocínio e não recebe apenas uma lista de tópicos.",
   },
   {
     question: "O material apresenta artigos de lei, súmulas e exceções?",
-    answer: "",
+    answer: "Sim. Os artigos de lei são organizados por assunto, com súmulas, entendimentos importantes, exceções e pontos de atenção para facilitar a revisão.",
   },
   {
     question: "O material mostra as diferenças entre conceitos jurídicos?",
-    answer: "",
+    answer: "Sim. A apostila traz comparativos e explicações visuais para ajudar você a diferenciar conceitos jurídicos parecidos e entender como aplicar cada conteúdo.",
   },
   {
     question: "Consigo acompanhar os fluxos e procedimentos em etapas?",
-    answer: "",
+    answer: "Sim. Os fluxos e procedimentos são apresentados em etapas, com setas, classificações e exemplos jurídicos para acompanhar a sequência e revisar de forma mais objetiva.",
   },
   {
     question: "O material é organizado por disciplinas?",
-    answer: "",
+    answer: "Sim. O conteúdo reúne fundamentos de 7 disciplinas do exame e organiza os assuntos em unidades curtas para facilitar a localização e a revisão.",
   },
   {
     question: "Serve para bacharéis que estão se preparando para a OAB?",
-    answer: "",
+    answer: "Sim. O material foi desenvolvido para estudantes de Direito, bacharéis e candidatos à OAB que querem organizar a revisão e entender os assuntos da prova.",
   },
   {
     question: "Serve para estudantes de Direito?",
-    answer: "",
+    answer: "Sim. As explicações visuais, os comparativos e os exemplos jurídicos ajudam estudantes de Direito a compreender, revisar e aplicar os principais conteúdos apresentados.",
   },
   {
     question: "A apostila esgota o edital ou garante a aprovação?",
-    answer: "",
+    answer: "Não. A apostila apresenta fundamentos e exemplos selecionados de 7 disciplinas, mas não esgota o edital nem garante aprovação. A preparação deve considerar o edital, as normas e os comunicados oficiais da prova.",
   },
   {
     question: "Quanto tempo leva para receber o material?",
-    answer: "",
+    answer: "O acesso é imediato. Assim que o pagamento for confirmado, você recebe o material diretamente no seu WhatsApp e no seu e-mail.",
   },
   {
     question: "Posso imprimir o PDF?",
-    answer: "",
+    answer: "Sim. Você poderá imprimir as páginas que desejar e estudar ou revisar os assuntos no formato que for mais conveniente para você.",
   },
   {
     question: "O material possui garantia?",
-    answer: "",
+    answer: "Sim. Você terá 15 dias para acessar e avaliar o material. Caso a apostila não ajude você a localizar os assuntos, compreender as explicações e revisar os conteúdos apresentados, basta solicitar o reembolso dentro do prazo da garantia.",
   }
 ];
 
@@ -106,6 +106,9 @@ const FAQSection = () => {
               }}
             >
               <button
+                type="button"
+                aria-expanded={openIndex === index}
+                aria-controls={`faq-answer-${index}`}
                 onClick={() => toggleFaq(index)}
                 className="w-full flex items-center justify-between p-[16px] md:p-[18px] text-left cursor-pointer"
               >
@@ -134,8 +137,8 @@ const FAQSection = () => {
                 </div>
               </button>
 
-              {openIndex === index && faq.answer && (
-                <div className="px-[16px] md:px-[18px] pb-[16px] md:pb-[18px]">
+              {openIndex === index && (
+                <div id={`faq-answer-${index}`} className="px-[16px] md:px-[18px] pb-[16px] md:pb-[18px]">
                   <p
                     className="text-[15px] md:text-[17px] leading-relaxed"
                     style={{
